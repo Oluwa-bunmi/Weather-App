@@ -11,11 +11,15 @@ body{
     background-color: #222;
     font-family: "Poppins", sans-serif;
     .card{
-        background-color: #eaeaea;
+        background-color: #000000d0;
+        color: #fff;
         padding: 1em;
         border-radius: 30px;
         width: 100%;
         max-width: 420px;
         margin: 1em;
+        .search{
+            display: flex;
+        }
     }
 }
