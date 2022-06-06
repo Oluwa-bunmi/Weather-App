@@ -39,4 +39,10 @@ body .card .search {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+body .card .search button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -22,6 +22,12 @@ body{
             display: flex;
             align-items: center;
             justify-content: center;
+            button{
+                margin: 0.5em;
+                border-radius: 50%;
+                border: none;
+                
+            }
         }
     }
 }
