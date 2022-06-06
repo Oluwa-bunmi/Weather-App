@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222;
+}
+
+body .card {
+  color: #eaeaea;
+  padding: 1em;
+}
+/*# sourceMappingURL=styles.css.map */
