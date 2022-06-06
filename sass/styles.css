@@ -40,9 +40,28 @@ body .card .search {
           justify-content: center;
 }
 
+body .card .search input {
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 24px;
+  background-color: #7c7c7c2b;
+  color: #fff;
+  font-size: 120%;
+}
+
 body .card .search button {
   margin: 0.5em;
   border-radius: 50%;
   border: none;
+  height: 46px;
+  width: 46px;
+  outline: none;
+  background-color: #7c7c7c2b;
+  color: #fff;
+}
+
+body .card .search button:hover {
+  background-color: #7c7c7c6b;
 }
 /*# sourceMappingURL=styles.css.map */
