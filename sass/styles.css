@@ -16,6 +16,7 @@ body {
           align-items: center;
   background-color: #222;
   font-family: "Poppins", sans-serif;
+  font-size: 120%;
 }
 
 body .card {
@@ -41,6 +42,7 @@ body .card .search {
 }
 
 body .card .search input {
+  width: calc(100% - 80px);
   border: none;
   outline: none;
   padding: 0.5em 1em;
@@ -63,5 +65,8 @@ body .card .search button {
 
 body .card .search button:hover {
   background-color: #7c7c7c6b;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 /*# sourceMappingURL=styles.css.map */
