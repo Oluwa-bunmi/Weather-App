@@ -11,6 +11,9 @@ let weather = {
       .then((data) => console.log(data));
   },
   displayWeather: function(data){
+    const name = data;
+    const icon, description = data.weather;
+    const { speed } = data.wind;
 
   }
 };
