@@ -52,5 +52,16 @@ body{
                 transition: 0.2s ease-in-out;
             }
         }
+        .description{
+            text-transform: capitalize;
+            margin-left: 8px;
+        }
+        .temp{
+            margin-bottom: 0.4em;
+        }
+        .temp + div{
+            display: flex;
+            align-items: center;
+        }
     }
 }

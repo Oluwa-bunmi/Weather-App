@@ -70,4 +70,22 @@ body .card .search button:hover {
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
+
+body .card .description {
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+
+body .card .temp {
+  margin-bottom: 0.4em;
+}
+
+body .card .temp + div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=styles.css.map */
