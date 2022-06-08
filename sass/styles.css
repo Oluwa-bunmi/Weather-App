@@ -15,7 +15,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background: #222;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 120%;
   background-image: url("https://source.unsplash.com/1600x900/?landscape");
 }
@@ -77,8 +77,8 @@ body .card .description {
 }
 
 body .card .temp {
-  margin-bottom: 0.4em;
   margin-top: 0.4em;
+  margin-bottom: 0.4em;
 }
 
 body .card .temp + div {
