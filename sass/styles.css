@@ -88,4 +88,8 @@ body .card .temp + div {
       -ms-flex-align: center;
           align-items: center;
 }
+
+body .card .loading {
+  visibility: hidden;
+}
 /*# sourceMappingURL=styles.css.map */

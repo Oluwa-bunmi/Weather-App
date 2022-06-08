@@ -39,4 +39,4 @@ document.querySelector("input").addEventListener("keyup", (event) => {
   }
 
 });
-
+weather.fetchWeather("Nigeria");
