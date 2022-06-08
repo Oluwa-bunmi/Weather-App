@@ -1,1 +1,1 @@
-<p>Click to view: https://yourweatherforecast.netlify.app/<p>
+<p>Click to view: https://yourweatherforecast.netlify.app/</p>
