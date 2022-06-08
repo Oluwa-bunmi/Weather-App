@@ -14,10 +14,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #222;
+  background: #222;
   font-family: 'Open Sans', sans-serif;
   font-size: 120%;
-  background-image: url("https://unsplash.com/photos/1Z2niiBPg5A");
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
 }
 
 body .card {
