@@ -24,7 +24,8 @@ let weather = {
       document.querySelector(".temp").innerHTML = temp + "°C";
       document.querySelector(".humidity").innerHTML = "Humidity: " + humidity + "%";
       document.querySelector(".wind").innerHTML = "Wind Speed: " + speed + " km/h";
-  document.querySelector(".weather").classList.remove("loading")
+  document.querySelector(".weather").classList.remove("loading");
+  document.body.style.backgroundImage =  "url('https://source.unsplash.com/1600x900/?" + name + "')"
   },
   search: function(){
     this.fetchWeather(document.querySelector("input").value);
