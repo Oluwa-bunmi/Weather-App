@@ -91,5 +91,16 @@ body .card .temp + div {
 
 body .card .loading {
   visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+body .card .loading::after {
+  visibility: visible;
+  content: "Loading...";
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
